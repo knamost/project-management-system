@@ -1,0 +1,22 @@
+{
+  "name": "project-management-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "backend",
+    "API",
+    "creation"
+  ],
+  "author": "Suman Kathayat",
+  "license": "ISC",
+  "packageManager": "pnpm@10.29.3",
+  "devDependencies": {
+    "prettier": "3.8.1"
+  }
+}
