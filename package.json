@@ -1,28 +1,29 @@
 {
-  "name": "project-management-system",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "dev": "node --watch ./src/index.js",
-    "start": "node ./src/index.js"
-  },
-  "keywords": [
-    "backend",
-    "API",
-    "creation"
-  ],
-  "author": "Suman Kathayat",
-  "license": "ISC",
-  "packageManager": "pnpm@10.29.3",
-  "devDependencies": {
-    "@types/express": "^5.0.6",
-    "@types/node": "^25.3.0",
-    "nodemon": "^3.1.14",
-    "prettier": "3.8.1"
-  },
-  "dependencies": {
-    "express": "^5.2.1"
-  }
+	"name": "project-management-system",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon ./src/index.js",
+		"start": "node ./src/index.js"
+	},
+	"keywords": [
+		"backend",
+		"API",
+		"creation"
+	],
+	"author": "Suman Kathayat",
+	"license": "ISC",
+	"packageManager": "pnpm@10.29.3",
+	"devDependencies": {
+		"@types/express": "^5.0.6",
+		"@types/node": "^25.3.0",
+		"nodemon": "^3.1.14",
+		"prettier": "3.8.1"
+	},
+	"dependencies": {
+		"dotenv": "^17.3.1",
+		"express": "^5.2.1"
+	}
 }
