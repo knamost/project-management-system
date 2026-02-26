@@ -3,3 +3,4 @@ node_modules
 # Ignore all files in the root of your project
 .en
 .env
+env
