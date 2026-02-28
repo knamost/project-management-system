@@ -19,6 +19,10 @@ app.use(
 );
 
 //? Routes
+import healcheckRouter from "./routes/healthcheck.route.js";
+
+app.use("/api/v1/healthcheck", healcheckRouter);
+
 app.get("/", (req, res) => {
 	return res.send("Welcome to basecampy");
 });
